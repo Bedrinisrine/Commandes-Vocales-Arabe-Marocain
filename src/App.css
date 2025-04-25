@@ -1,0 +1,42 @@
+.app {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+}
+
+.record-btn,
+.reparse-btn {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.record-btn:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+.reparse-btn {
+  background-color: #1565c0;
+  margin-top: 10px;
+}
+
+.result-section {
+  margin-top: 2rem;
+}
+
+.transcript-box {
+  width: 100%;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
